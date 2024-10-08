@@ -45,6 +45,11 @@
             key-positions = <11 12 13>;
             bindings = <&tog 3>;
         };
+
+        vim-command {
+            bindings = <&vcmd>;
+            key-positions = <35 36>;
+        };
     };
 
     macros {
@@ -68,6 +73,13 @@
             #binding-cells = <0>;
             bindings = <&kp P &kp X>;
             label = "PX";
+        };
+
+        vcmd: vcmd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp ESCAPE &kp COLON>;
+            label = "VCMD";
         };
     };
 
