@@ -106,7 +106,7 @@
 
             bindings = <
          &kp Q        &kp W    &kp F            &kp P             &kp B         &kp J              &kp L                 &kp U                &kp Y       &kp MINUS
-         &lt 7 A      &lt 8 R  &mt LCTRL S      &mt LSHFT T       &kp G         &kp M              &mt RSHFT N           &mt RCTRL E          &mt RALT I  &mt RGUI O
+         &lt 7 A      &lt 8 R  &kp S            &kp T             &kp G         &kp M              &kp N                 &mt RCTRL E          &mt RALT I  &mt RGUI O
 &kp TAB  &mt LCTRL Z  &kp X    &kp C            &kp D             &kp V         &kp K              &kp H                 &kp COMMA            &kp DOT     &mt RIGHT_ALT FSLH  &kp SEMICOLON
                                &lt 6 BACKSPACE  &mt LCTRL ESCAPE  &kp DELETE    &mt RIGHT_ALT SQT  &mt LEFT_SHIFT SPACE  &mt LEFT_META ENTER
             >;
