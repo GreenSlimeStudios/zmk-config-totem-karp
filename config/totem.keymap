@@ -55,6 +55,11 @@
             bindings = <&kp LG(RC(RETURN))>;
             key-positions = <37 36>;
         };
+
+        prt_scrn {
+            bindings = <&kp PRINTSCREEN>;
+            key-positions = <6 5>;
+        };
     };
 
     macros {
